@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | AJ Vehicle Registration</title>
+    <meta name="description"
+        content="Contact AJ Vehicle Registration for reliable services in Durban, KZN.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Material Symbols -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@300,0..1&display=swap"
+        rel="stylesheet" />
+
+    <!-- FontAwesome for fallback/extra icons if needed, though Material is usually enough -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Compiled Tailwind CSS (Includes custom styles) -->
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body class="bg-gray-50 text-gray-800 antialiased selection:bg-brand-accent selection:text-white">
+
+    <!-- Header -->
+    <header class="fixed w-full top-0 z-50 glass-header shadow-sm transition-all duration-300" id="header">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="flex items-center gap-2 group">
+                    <div class="bg-brand-accent text-white p-2 rounded-lg group-hover:bg-brand-blue smooth-transition">
+                        <i class="fas fa-car text-xl"></i>
+                    </div>
+                    <span class="text-xl font-bold text-brand-dark tracking-tight">AJ Vehicle Reg</span>
+                </a>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex items-center gap-8">
+                    <a href="index.html"
+                        class="text-sm font-medium text-gray-500 hover:text-brand-blue smooth-transition">Home</a>
+                    <a href="services.html"
+                        class="text-sm font-medium text-gray-500 hover:text-brand-blue smooth-transition">Services</a>
+                    <a href="contact.html"
+                        class="text-sm font-semibold text-brand-blue border-b-2 border-brand-accent pb-1">Contact</a>
+                    <a href="contact.html"
+                        class="bg-brand-accent hover:bg-brand-blue text-white px-6 py-2.5 rounded-lg font-medium text-sm shadow-md hover:shadow-premium smooth-transition">
+                        Get Started
+                    </a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="menu-btn" class="md:hidden text-gray-600 hover:text-brand-blue focus:outline-none">
+                    <span class="material-symbols-outlined text-3xl">menu</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Nav Dropdown -->
+        <div id="mobile-menu"
+            class="hidden bg-white border-t border-gray-100 shadow-lg absolute w-full left-0 origin-top">
+            <div class="px-4 pt-2 pb-6 space-y-2 flex flex-col">
+                <a href="index.html" class="block px-4 py-3 text-gray-600 font-medium hover:bg-gray-50 rounded-lg">Home</a>
+                <a href="services.html"
+                    class="block px-4 py-3 text-gray-600 font-medium hover:bg-gray-50 rounded-lg">Services</a>
+                <a href="contact.html"
+                    class="block px-4 py-3 text-brand-blue font-semibold bg-brand-light rounded-lg">Contact</a>
+                <a href="contact.html"
+                    class="block text-center mt-4 bg-brand-accent text-white px-4 py-3 rounded-lg font-semibold shadow-md">Get
+                    Started</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Contact & Consultation Section -->
+        <section id="contact" class="pt-32 pb-20 bg-gray-50 min-h-screen">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
+
+                    <!-- Contact Info -->
+                    <div class="flex flex-col gap-8">
+                        <div>
+                            <h2 class="text-3xl font-extrabold text-brand-dark mb-4">Get in Touch</h2>
+                            <p class="text-gray-500 text-lg">Reach out to our administrative team to initiate your
+                                registration process or inquire about our services.</p>
+                        </div>
+
+                        <div class="flex flex-col gap-6">
+                            <!-- Location -->
+                            <div
+                                class="flex items-start gap-4 p-4 rounded-xl hover:bg-white hover:shadow-sm smooth-transition">
+                                <div class="bg-brand-light text-brand-accent p-3 rounded-lg">
+                                    <span class="material-symbols-outlined">location_on</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-brand-dark text-lg">Office Address</h4>
+                                    <p class="text-gray-500 text-sm mt-1">123 Anton Lembede Street<br>Durban, KZN, South
+                                        Africa</p>
+                                </div>
+                            </div>
+
+                            <!-- Hours -->
+                            <div
+                                class="flex items-start gap-4 p-4 rounded-xl hover:bg-white hover:shadow-sm smooth-transition">
+                                <div class="bg-brand-light text-brand-accent p-3 rounded-lg">
+                                    <span class="material-symbols-outlined">schedule</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-brand-dark text-lg">Business Hours</h4>
+                                    <p class="text-gray-500 text-sm mt-1">Mon-Fri: 8:00 AM - 5:00 PM<br>Sat-Sun: Closed
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Phone & Email -->
+                            <div
+                                class="flex items-start gap-4 p-4 rounded-xl hover:bg-white hover:shadow-sm smooth-transition">
+                                <div class="bg-brand-light text-brand-accent p-3 rounded-lg">
+                                    <span class="material-symbols-outlined">contact_phone</span>
+                                </div>
+                                <div class="flex flex-col gap-2">
+                                    <h4 class="font-bold text-brand-dark text-lg">Direct Contact</h4>
+                                    <a href="tel:0714283735"
+                                        class="text-gray-500 hover:text-brand-accent text-sm flex items-center gap-2 smooth-transition">
+                                        <i class="fas fa-phone w-4"></i> +27 71 428 3735
+                                    </a>
+                                    <a href="https://wa.me/27714283735"
+                                        class="text-[#25D366] hover:text-green-600 font-medium text-sm flex items-center gap-2 smooth-transition">
+                                        <i class="fab fa-whatsapp w-4 text-lg"></i> WhatsApp Available
+                                    </a>
+                                    <a href="mailto:ajvehicle@service.co.za"
+                                        class="text-gray-500 hover:text-brand-accent text-sm flex items-center gap-2 smooth-transition">
+                                        <i class="fas fa-envelope w-4"></i> ajvehicle@service.co.za
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Consultation Form -->
+                    <div class="bg-white rounded-2xl p-8 lg:p-10 shadow-premium border border-gray-100">
+                        <h3 class="text-2xl font-bold text-brand-dark mb-6">Request a Consultation</h3>
+                        <form class="flex flex-col gap-5"
+                            onsubmit="event.preventDefault(); alert('Request submitted successfully!');">
+                            <div class="flex flex-col gap-2">
+                                <label class="text-sm font-semibold text-gray-700">Full Name</label>
+                                <input type="text" placeholder="Enter your full name" required
+                                    class="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-brand-accent focus:ring-2 focus:ring-brand-accent/20 outline-none smooth-transition">
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label class="text-sm font-semibold text-gray-700">Email Address</label>
+                                <input type="email" placeholder="Enter your email address" required
+                                    class="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-brand-accent focus:ring-2 focus:ring-brand-accent/20 outline-none smooth-transition">
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label class="text-sm font-semibold text-gray-700">Service Required</label>
+                                <select
+                                    class="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-brand-accent focus:ring-2 focus:ring-brand-accent/20 outline-none smooth-transition text-gray-600">
+                                    <option value="" disabled selected>Select a service...</option>
+                                    <option>Vehicle Registration</option>
+                                    <option>License Disc Renewal</option>
+                                    <option>Ownership Transfer</option>
+                                    <option>Police Clearance</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label class="text-sm font-semibold text-gray-700">Additional Details</label>
+                                <textarea placeholder="How can we help you?" rows="3"
+                                    class="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-sm focus:border-brand-accent focus:ring-2 focus:ring-brand-accent/20 outline-none smooth-transition resize-none"></textarea>
+                            </div>
+                            <button type="submit"
+                                class="mt-2 w-full bg-brand-blue text-white font-semibold py-3.5 rounded-lg shadow-md hover:bg-brand-accent hover:shadow-premium smooth-transition flex justify-center items-center gap-2 micro-bounce">
+                                Submit Request <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark pt-16 pb-8 border-t-4 border-brand-accent">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Brand -->
+                <div class="flex flex-col gap-4">
+                    <a href="index.html" class="flex items-center gap-2 text-white">
+                        <i class="fas fa-car text-2xl text-brand-accent"></i>
+                        <span class="text-xl font-bold tracking-tight">AJ Vehicle Reg</span>
+                    </a>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Your trusted partner for all vehicle registration services in Durban, KZN. Institutional
+                        stability and efficiency guaranteed.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4 text-lg">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white text-sm smooth-transition">Home</a>
+                        </li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white text-sm smooth-transition">Our
+                                Services</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white text-sm smooth-transition">Contact
+                                Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white text-sm smooth-transition">Licensing
+                                Guide</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services Links -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4 text-lg">Top Services</h4>
+                    <ul class="space-y-3">
+                        <li><a href="services.html" class="text-gray-400 hover:text-white text-sm smooth-transition">Vehicle
+                                Registration</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white text-sm smooth-transition">License
+                                Renewals</a></li>
+                        <li><a href="services.html"
+                                class="text-gray-400 hover:text-white text-sm smooth-transition">Ownership Transfers</a>
+                        </li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-white text-sm smooth-transition">Police
+                                Clearance</a></li>
+                    </ul>
+                </div>
+
+                <!-- Connect -->
+                <div>
+                    <h4 class="text-white font-semibold mb-4 text-lg">Connect With Us</h4>
+                    <div class="flex flex-col gap-3">
+                        <a href="https://wa.me/27714283735"
+                            class="text-gray-400 hover:text-[#25D366] text-sm flex items-center gap-2 smooth-transition">
+                            <i class="fab fa-whatsapp text-lg"></i> 071 428 3735
+                        </a>
+                        <a href="mailto:ajvehicle@service.co.za"
+                            class="text-gray-400 hover:text-white text-sm flex items-center gap-2 smooth-transition">
+                            <i class="fas fa-envelope"></i> ajvehicle@service.co.za
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-xs text-center md:text-left">
+                    &copy; 2024 AJ Vehicle Registration. All rights reserved.
+                </p>
+                <div class="flex gap-6">
+                    <a href="#" class="text-gray-500 hover:text-white text-xs smooth-transition">Terms of Service</a>
+                    <a href="#" class="text-gray-500 hover:text-white text-xs smooth-transition">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External Main JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
