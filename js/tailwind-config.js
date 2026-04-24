@@ -9,7 +9,8 @@ tailwind.config = {
                     blue: '#1e3a8a',
                     accent: '#3b82f6',
                     light: '#eff6ff',
-                    dark: '#0f172a'
+                    dark: '#1F2937', // This will generate text-brand-dark, bg-brand-dark, etc.
+                    red: '#DC2626'   // This will generate text-brand-red, bg-brand-red, etc.
                 }
             },
             boxShadow: {
